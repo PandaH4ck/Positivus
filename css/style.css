@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding: 0px 100px;
+  max-width: 1440px;
+}
+.header {
+  padding: 60px 0px 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_site {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  align-items: center;
+}
+.about_site button {
+  border-radius: 14px;
+  width: 231px;
+  height: 68px;
+  background-color: white;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  gap: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
