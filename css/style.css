@@ -38,3 +38,39 @@ a {
   text-decoration: none;
   color: black;
 }
+.hero_container_navigation {
+  width: 531px;
+  height: 481px;
+}
+.hero_title {
+  font-size: 30px;
+  width: 531px;
+  height: 231px;
+}
+.hero_text {
+  padding: 35px 0px;
+  width: 498px;
+  height: 112px;
+  font-size: 20px;
+}
+.hero_btn {
+  padding: 35px 0px;
+}
+.hero_img {
+  width: 600px;
+  height: 515px;
+}
+.hero_container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero_btn button {
+  padding: 20px 35px;
+  background-color: #191a23;
+  color: white;
+  border-radius: 14px;
+}
+.hero_other_site {
+  display: flex;
+  justify-content: space-between;
+}
