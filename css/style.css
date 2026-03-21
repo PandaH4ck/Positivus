@@ -74,3 +74,19 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.Heading h3 {
+  height: 51px;
+  width: 178px;
+  background-color: #b9ff66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Heading {
+  display: flex;
+}
+.Heading p {
+  padding: 0px 40px;
+  height: 46px;
+  width: 580px;
+}
