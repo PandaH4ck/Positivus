@@ -107,28 +107,38 @@ a {
   height: 46px;
   max-width: 580px;
 }
+
 .Cards_section {
   display: flex;
   justify-content: space-between;
+  font-size: 30px;
+  padding: 40px 0px;
 }
-.card_one {
-  background-color: #f3f3f3;
-  display: flex;
+.Cards_section a {
+  font-size: 20px;
+}
+.card {
   width: 600px;
   height: 310px;
   border-radius: 45px;
   padding: 50px;
+  display: flex;
   justify-content: space-between;
 }
-.card_one h3 {
+
+.color_white {
+  background-color: #f3f3f3;
+}
+.color_font_white {
+  color: #f3f3f3;
+}
+.color_green {
   background-color: #b9ff66;
-  max-width: 221px;
-  border-radius: 7px;
 }
-.card_one img {
-  width: 210px;
-  height: auto;
+.color_dark {
+  background-color: #191a23;
 }
+
 .Heading_and_link img {
   width: 41px;
   height: 41px;
@@ -138,20 +148,10 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-.card_tho {
-  background-color: #b9ff66;
-  display: flex;
-  justify-content: space-between;
-  width: 600px;
-  height: 310px;
-  border-radius: 45px;
-  padding: 50px;
-}
-.card_tho h3 {
-  background-color: #ffffff;
-  max-width: 209px;
+.card_text_radius {
   border-radius: 7px;
 }
+
 #tokyo-selecting {
   width: 210px;
   height: 148px;
@@ -160,5 +160,15 @@ a {
 #tokyo-magnifier {
   width: 210px;
   height: 170px;
+  align-self: center;
+}
+#tokyo-browser {
+  width: 209px;
+  height: 210px;
+  align-self: center;
+}
+#okyo-sending {
+  width: 210px;
+  height: 192px;
   align-self: center;
 }
