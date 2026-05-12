@@ -225,3 +225,20 @@ a {
   font-size: 20px;
   border-radius: 14px;
 }
+.Case_Studies_container {
+  padding-top: 100px;
+  gap: 40px;
+  display: flex;
+}
+.Case_Studies_container h3 {
+  font-size: 40px;
+  border-radius: 7px;
+  width: 265px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Case_Studies_container p {
+  font-size: 18px;
+  max-width: 580px;
+}
