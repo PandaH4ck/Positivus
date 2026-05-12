@@ -26,7 +26,7 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-.about_site {
+.about-site {
   font-size: 20px;
 
   display: flex;
@@ -34,7 +34,7 @@ p {
   gap: 40px;
   align-items: center;
 }
-.about_site button {
+.about-site button {
   font-size: 20px;
   border-radius: 14px;
   width: 231px;
@@ -54,26 +54,26 @@ a {
 .hero-content {
   max-width: 531px;
 }
-.hero_title {
+.hero-title {
   font-size: 30px;
 }
-.hero_text {
+.hero-text {
   padding: 35px 0px 0px;
   font-size: 20px;
 }
-.hero_btn {
+.hero-btn {
   padding: 35px 0px;
   font-size: 20px;
 }
-.hero_img {
+.hero-img {
   width: 600px;
   height: 515px;
 }
-.hero_container {
+.hero-container {
   display: flex;
   justify-content: space-between;
 }
-.hero_btn button {
+.hero-btn button {
   padding: 20px 35px;
   background-color: #191a23;
   color: white;
@@ -131,7 +131,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-.card_text_radius {
+.highlight-radius {
   border-radius: 7px;
 }
 
@@ -165,17 +165,17 @@ a {
   height: 170px;
   align-self: center;
 }
-.cta_block {
+.cta-block {
   padding-top: 100px;
 }
-.cta_pading {
+.cta-wrapper {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.cta_card {
+.cta-card {
   border-radius: 45px;
 }
-.cta_card_padding {
+.cta-card-inner {
   padding-right: 135px;
   padding-left: 60px;
 
@@ -183,21 +183,21 @@ a {
   justify-content: space-between;
 }
 
-.cta_img {
+.cta-img {
   width: 359px;
   height: 395px;
 }
-.text_and_btn {
+.cta-content {
   max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.text_and_btn h3 {
+.cta-content h3 {
   font-size: 30px;
   padding-bottom: 26px;
 }
-.text_and_btn p {
+.cta-content p {
   /* font-size: 18px; */
   padding-bottom: 26px;
 }
@@ -252,7 +252,7 @@ a {
   padding: 41px 57px 41px 60px;
   margin-bottom: 30px;
 }
-.Process p {
+.process-list p {
   padding-top: 30px;
   /* font-size: 18px; */
 }
@@ -262,13 +262,13 @@ a {
 
   align-items: center;
 }
-.Process_block_Content_padding {
+.step-header-active {
   padding-bottom: 30px;
 }
-.Process h2 {
+.process-list h2 {
   font-size: 60px;
 }
-.Process h3 {
+.process-list h3 {
   font-size: 30px;
 }
 
@@ -292,7 +292,7 @@ a {
   border: 1px solid #000;
   border-radius: 45px;
 }
-.Group_of_cards_human_pading {
+.team-grid-spacing {
   padding-top: 40px;
 }
 .member-bio {
@@ -311,7 +311,7 @@ a {
   width: 34px;
   height: 34px;
 }
-.Group_of_cards_human_button {
+.team-footer {
   padding-top: 40px;
 }
 .team-btn {
