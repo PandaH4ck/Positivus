@@ -14,6 +14,9 @@ body {
   font-family: SpaceGrotesk-VariableFont;
   font-size: 20px;
 }
+p {
+  font-size: 18px;
+}
 .header {
   padding: 60px 0px 70px;
 }
@@ -195,7 +198,7 @@ a {
   padding-bottom: 26px;
 }
 .text_and_btn p {
-  font-size: 18px;
+  /* font-size: 18px; */
   padding-bottom: 26px;
 }
 .text_and_btn_button {
@@ -206,7 +209,7 @@ a {
   border-radius: 14px;
 }
 .Heading_Subheading {
-  padding: 100px 0 80px;
+  padding: 140px 0 80px;
   gap: 40px;
   display: flex;
 }
@@ -220,7 +223,7 @@ a {
   align-items: center;
 }
 .Heading_Subheading p {
-  font-size: 18px;
+  /* font-size: 18px; */
   max-width: 580px;
 }
 .Case_studies_block {
@@ -251,7 +254,7 @@ a {
 }
 .Process p {
   padding-top: 30px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .Process_block_Content {
   display: flex;
@@ -277,4 +280,33 @@ a {
 #Plus_icon {
   width: 58px;
   height: 58px;
+}
+.Group_of_cards {
+  display: flex;
+  justify-content: space-between;
+}
+.Group_of_cards_human {
+  padding: 40px 35px 63px 35px;
+  max-width: 387px;
+  max-height: 331px;
+  border: 1px solid #000;
+  border-radius: 45px;
+}
+.Group_of_cards_human_pading {
+  padding-top: 40px;
+}
+.Person_text_about {
+  padding-top: 28px;
+}
+.Person {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 28px;
+}
+.Person_text {
+  margin-top: auto;
+}
+#Social_icon {
+  width: 34px;
+  height: 34px;
 }
