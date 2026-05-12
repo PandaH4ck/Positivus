@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   color: black;
 }
-.hero_container_navigation {
+.hero-content {
   max-width: 531px;
 }
 .hero_title {
@@ -82,18 +82,18 @@ a {
   font-size: 20px;
   cursor: pointer;
 }
-.hero_other_site {
+.hero-brands {
   display: flex;
   justify-content: space-between;
   filter: grayscale(100%);
 }
-.Cards_section {
+.services-row {
   display: flex;
   justify-content: space-between;
   font-size: 30px;
   padding-bottom: 40px;
 }
-.Cards_section a {
+.services-row a {
   font-size: 20px;
 }
 .card {
@@ -106,27 +106,27 @@ a {
   justify-content: space-between;
 }
 
-.color_white {
+.bg-gray {
   background-color: #f3f3f3;
 }
-.color_font_white {
+.text-white {
   color: #f3f3f3;
 }
-.color_green {
+.bg-green {
   background-color: #b9ff66;
 }
-.color_dark {
+.bg-dark {
   background-color: #191a23;
 }
-.color_font_dark {
+.text-dark {
   color: #191a23;
 }
 
-.Heading_and_link img {
+.service-info img {
   width: 41px;
   height: 41px;
 }
-.Heading_and_link {
+.service-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -208,12 +208,12 @@ a {
   font-size: 20px;
   border-radius: 14px;
 }
-.Heading_Subheading {
+.section-header {
   padding: 140px 0 80px;
   gap: 40px;
   display: flex;
 }
-.Heading_Subheading h3 {
+.section-header h3 {
   background-color: #b9ff66;
   font-size: 40px;
   border-radius: 7px;
@@ -222,31 +222,31 @@ a {
   justify-content: center;
   align-items: center;
 }
-.Heading_Subheading p {
+.section-header p {
   /* font-size: 18px; */
   max-width: 580px;
 }
-.Case_studies_block {
+.case-studies {
   font-size: 20px;
 }
 
-.Case_studies {
+.cases-container {
   border-radius: 45px;
   display: flex;
   justify-content: space-between;
   padding-top: 70px;
   padding: 70px 60px 93px;
 }
-.Case_studies a {
+.cases-container a {
   font-size: 18px;
   display: inline-block;
   padding-top: 20px;
 }
-.Case_study {
+.case-item {
   max-width: 286px;
 }
 
-.Process_block {
+.process-card {
   border: 2px solid #000;
   border-radius: 45px;
   padding: 41px 57px 41px 60px;
@@ -256,7 +256,7 @@ a {
   padding-top: 30px;
   /* font-size: 18px; */
 }
-.Process_block_Content {
+.step-header {
   display: flex;
   justify-content: space-between;
 
@@ -272,7 +272,7 @@ a {
   font-size: 30px;
 }
 
-.Process_block_Content_text {
+.step-title {
   gap: 25px;
   display: flex;
   align-items: center;
@@ -281,11 +281,11 @@ a {
   width: 58px;
   height: 58px;
 }
-.Group_of_cards {
+.team-row {
   display: flex;
   justify-content: space-between;
 }
-.Group_of_cards_human {
+.team-card {
   padding: 40px 35px 63px 35px;
   max-width: 387px;
   max-height: 331px;
@@ -295,16 +295,16 @@ a {
 .Group_of_cards_human_pading {
   padding-top: 40px;
 }
-.Person_text_about {
+.member-bio {
   padding-top: 28px;
 }
-.Person {
+.member-info {
   display: flex;
   justify-content: space-between;
   padding-bottom: 28px;
   gap: 20px;
 }
-.Person_text {
+.member-role {
   margin-top: auto;
 }
 #Social_icon {
@@ -314,10 +314,10 @@ a {
 .Group_of_cards_human_button {
   padding-top: 40px;
 }
-.Group_of_cards_human_btn {
+.team-btn {
   justify-content: space-between;
 }
-.Group_of_cards_human_btn {
+.team-btn {
   padding: 20px 76px;
   display: block;
   margin-left: auto;
