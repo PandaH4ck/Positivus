@@ -48,13 +48,10 @@ a {
   color: black;
 }
 .hero_container_navigation {
-  width: 531px;
-  height: 481px;
+  max-width: 531px;
 }
 .hero_title {
   font-size: 30px;
-  width: 531px;
-  height: 231px;
 }
 .hero_text {
   padding: 35px 0px 0px;
@@ -112,7 +109,7 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 30px;
-  padding: 40px 0px;
+  padding-bottom: 40px;
 }
 .Cards_section a {
   font-size: 20px;
@@ -184,4 +181,47 @@ a {
   width: 210px;
   height: 170px;
   align-self: center;
+}
+.cta_block {
+  padding-top: 100px;
+}
+.cta_pading {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.cta_card {
+  border-radius: 45px;
+}
+.cta_card_padding {
+  padding-right: 135px;
+  padding-left: 60px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta_img {
+  width: 359px;
+  height: 395px;
+}
+.text_and_btn {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text_and_btn h3 {
+  font-size: 30px;
+  padding-bottom: 26px;
+}
+.text_and_btn p {
+  font-size: 18px;
+  padding-bottom: 26px;
+}
+.text_and_btn_button {
+  padding: 20px 35px;
+  max-width: 288px;
+  min-width: 288px;
+  font-size: 20px;
+  border-radius: 14px;
 }
