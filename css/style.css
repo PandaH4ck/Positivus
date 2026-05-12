@@ -138,6 +138,9 @@ a {
 .color_dark {
   background-color: #191a23;
 }
+.color_font_dark {
+  color: #191a23;
+}
 
 .Heading_and_link img {
   width: 41px;
@@ -170,5 +173,15 @@ a {
 #okyo-sending {
   width: 210px;
   height: 192px;
+  align-self: center;
+}
+#tokyo-many {
+  width: 210px;
+  height: 196px;
+  align-self: center;
+}
+#tokyo-volumetric {
+  width: 210px;
+  height: 170px;
   align-self: center;
 }
