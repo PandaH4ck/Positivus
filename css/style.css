@@ -94,6 +94,7 @@ a {
   font-size: 20px;
 }
 .card {
+  border: 2px solid #000;
   width: 600px;
   height: 310px;
   border-radius: 45px;
@@ -205,8 +206,7 @@ a {
   border-radius: 14px;
 }
 .Heading_Subheading {
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding: 100px 0 80px;
   gap: 40px;
   display: flex;
 }
@@ -232,9 +232,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 70px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-block: 93px;
+  padding: 70px 60px 93px;
 }
 .Case_studies a {
   font-size: 18px;
@@ -243,4 +241,40 @@ a {
 }
 .Case_study {
   max-width: 286px;
+}
+
+.Process_block {
+  border: 2px solid #000;
+  border-radius: 45px;
+  padding: 41px 57px 41px 60px;
+  margin-bottom: 30px;
+}
+.Process p {
+  padding-top: 30px;
+  font-size: 18px;
+}
+.Process_block_Content {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.Process_block_Content_padding {
+  padding-bottom: 30px;
+}
+.Process h2 {
+  font-size: 60px;
+}
+.Process h3 {
+  font-size: 30px;
+}
+
+.Process_block_Content_text {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+}
+#Plus_icon {
+  width: 58px;
+  height: 58px;
 }
