@@ -302,6 +302,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding-bottom: 28px;
+  gap: 20px;
 }
 .Person_text {
   margin-top: auto;
@@ -309,4 +310,17 @@ a {
 #Social_icon {
   width: 34px;
   height: 34px;
+}
+.Group_of_cards_human_button {
+  padding-top: 40px;
+}
+.Group_of_cards_human_btn {
+  justify-content: space-between;
+}
+.Group_of_cards_human_btn {
+  padding: 20px 76px;
+  display: block;
+  margin-left: auto;
+  font-size: 20px;
+  border-radius: 14px;
 }
