@@ -1,4 +1,11 @@
 "use strict";
+AOS.init({
+  duration: 3000,
+  easing: "ease-out-quart",
+  once: true,
+  offset: 150,
+  delay: 100,
+});
 let offset = 0;
 const sliderLine = document.querySelector(".testimonials");
 let sliderNext = document.querySelector(".slider-next");
