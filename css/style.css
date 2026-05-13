@@ -121,7 +121,9 @@ a {
 .text-dark {
   color: #191a23;
 }
-
+.text-green {
+  color: #b9ff66;
+}
 .service-info img {
   width: 41px;
   height: 41px;
@@ -323,4 +325,42 @@ a {
   margin-left: auto;
   font-size: 20px;
   border-radius: 14px;
+}
+.testimonials-block {
+  padding: 84px 0px 68px;
+  border-radius: 45px;
+  max-height: 625px;
+  overflow: hidden;
+}
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  left: 1;
+  transition: all ease 1s;
+}
+.testimonial-card {
+  width: 606px;
+  flex-shrink: 0;
+}
+.testimonial-text {
+  padding: 48px 52px;
+  border-radius: 45px;
+  border: 1px solid #f3f3f3;
+}
+.testimonial-author p {
+  font-size: 20px;
+}
+.sliders-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliders {
+  display: flex;
+  width: 564px;
+  justify-content: space-between;
+  margin-top: 124px;
 }
