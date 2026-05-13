@@ -1,3 +1,4 @@
+"use strict";
 let offset = 0;
 const sliderLine = document.querySelector(".testimonials");
 let sliderNext = document.querySelector(".slider-next");
